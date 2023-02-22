@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #d6e4e5;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60rem;
+  margin: 2rem auto;
+}
+.box {
+  padding: 1.5rem;
+  max-width: 18rem;
+  height: 32rem;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#price {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+sub {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.3;
+  
+}
+#text {
+  position: relative;
+  top: -10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: orange;
+}
+#content {
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+.features {
+  font-size: 0.9rem;
+  padding-left: 5px;
+ 
+}
+div > p{
+    margin-bottom:.5rem ;
+}
+i {
+  color: rgb(251, 153, 16);
+}
+button {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+}
+.box:hover {
+  scale: 1.02;
+  transition: all  .3s linear;
+  cursor: pointer;
+}
